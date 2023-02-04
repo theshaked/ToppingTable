@@ -1,16 +1,17 @@
 import './Card.css'
 
-const Card = () => {
+const Card = ({ name , lastname ,amount, musthave , optional}) => {
     return <div className="card grow">
-        <img alt='robots' src='http://robohash.org/name?size=100x100'/>
-        <h2>name lastname</h2>
-        <line/>
-        <span>pizza prefrences
-        pizza prefrences
-        pizza prefrences
-        pizza prefrences
-        pizza prefrences
-        </span>
+        <img alt='robots' src={`http://robohash.org/${name}${lastname}?set=set4&size=100x100`}/> 
+        <h2>{name} {lastname}</h2>
+        <hr/>
+        <h4>{`Amount of slices ${amount}`}</h4>
+        <div>
+            {`Must have: ${musthave}` }
+        </div> 
+        <div>
+            {optional && `Likes: ${optional}`}
+        </div>
     </div>
 };
 

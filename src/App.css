@@ -1,15 +1,30 @@
-div.app{
-
+.App {
+  text-align: left;
 }
+
 body,html{
-  background-color: gainsboro;
+  background: gainsboro;
+  color: #212121;
+  font-family: Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 
 }
+
+body {
+  margin: 0px;
+}
+
+/* Grow animation */
 
 .grow { 
   transition: all .2s ease-in-out; 
+  backface-visibility: hidden;
+
   }
   
   .grow:hover { 
-  transform: scale(1.05); 
+    transform: scale(1.1); 
   }
+
+  
+
+  

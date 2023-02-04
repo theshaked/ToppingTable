@@ -2,15 +2,13 @@ import './Cards.css'
  
 import Card from "./Card/Card";
 
-const Cards = () => {
+
+const Cards = ({CardsData}) => {
+
+
     return <div className="cards">
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        {/* TODO: https://stackoverflow.com/questions/28329382/understanding-unique-keys-for-array-children-in-react-js */}
+        {CardsData.map(card => <Card {...card} />)}
         </div>
 };
 
