@@ -1,9 +1,9 @@
-.cards{
-    padding: 1em;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+.cards {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 }
 
-.cards > .card{
-    margin: 1vw;
+.cards > .card {
+  margin: 1vw;
 }

@@ -2,11 +2,13 @@
   text-align: left;
 }
 
-body,html{
+body,
+html {
   background: gainsboro;
   color: #212121;
-  font-family: Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-
+  font-family: Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif,
+    Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
 }
 
 body {
@@ -15,16 +17,11 @@ body {
 
 /* Grow animation */
 
-.grow { 
-  transition: all .2s ease-in-out; 
+.grow {
+  transition: all 0.2s ease-in-out;
   backface-visibility: hidden;
+}
 
-  }
-  
-  .grow:hover { 
-    transform: scale(1.1); 
-  }
-
-  
-
-  
+.grow:hover {
+  transform: scale(1.1);
+}
