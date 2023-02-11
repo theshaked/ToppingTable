@@ -1,0 +1,20 @@
+.text-entry input {
+  border: 0;
+  outline: 0;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.text-entry fieldset {
+  padding: 0px 0px 0.5rem;
+  margin: 0.5em;
+  position: relative;
+  background-color: white;
+  border-style: solid;
+}
+
+.text-entry legend {
+  top: -0.5rem;
+  left: 0.5rem;
+  font-size: 1rem;
+}
